@@ -2,9 +2,79 @@
     display: none;
 }
 
-#clock {
+body {
+    background-color: cornflowerblue;
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: 100px;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-bottom: 3px solid black;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#login-form {
+    position: fixed;
+}
+
+#greeting {
+    font-size: 80px;
+    margin-top: -60px;
+}
+
+#todo-list, #quote {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#weather {
+    display: flex;
+    justify-content: center;
+}
+
+#clock {
+    margin-top: 10%;
+    font-size: 150px;
+}
+
+#quote {
+    font-size: 40px;
 }

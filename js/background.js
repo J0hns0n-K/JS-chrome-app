@@ -6,4 +6,7 @@ const bgImage = document.createElement("img");
 
 bgImage.src = `img/${chosenImage}`;
 
-document.body.style.backgroundImage = "url(bgImage.src)";
+const ii = document.body.style.backgroundImage = `url(${bgImage.src})`
+const dd = document.body.style.backgroundRepeat = "no-repeat";
+const cc = document.body.style.backgroundPosition = "center";
+const bb = document.body.style.backgroundSize = "cover";
